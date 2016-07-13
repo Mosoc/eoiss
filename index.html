@@ -17,11 +17,16 @@
   </head>
   <body>
     <div class="container">
-    <h3>To Make lost piece  wuth you.</h3>
+    <h3>To Make lost piece  with you.</h3>
     <p>here provide all futuristic solutions!</p>
-    <button ui-sref="Modal.confirmAddToCart">Start Journey</button>
-
+    <br/>
+    <div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-default" ui-sref="Panel.regular">Regular</button>
+      <button type="button" class="btn btn-default" ui-sref="Panel.progress">Progress</button>
+      <button type="button" class="btn btn-default" ui-sref="Panel.todolist">Todolist</button>
+    </div>
     <div ui-view="modal" autoscroll="false"></div>
+    <div ui-view="panel"></div>
     
     </div>
   </body>

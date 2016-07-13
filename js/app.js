@@ -42,4 +42,47 @@ angular.module("modalApp", ["ui.router"]).config(function($stateProvider) {
     }
   });
   
+    $stateProvider.state("Modal.finalStrike", {
+    views:{
+      "modal": {
+        templateUrl: "modals/final.html"
+      }
+    }
+  });
+  
+  $stateProvider.state('Panel', {
+    views:{
+      "panel": {
+        templateUrl: "panel.html"
+      }
+    }
+  });
+  
+  
+  $stateProvider.state('Panel.regular', {
+    views:{
+      "content": {
+        templateUrl: "panels/regular.html"
+      }
+    }
+  });
+  
+  $stateProvider.state('Panel.progress', {
+    views:{
+      "content": {
+        templateUrl: "panels/progress.html"
+      }
+    }
+  });
+  
+  $stateProvider.state('Panel.todolist', {
+    views:{
+      "content": {
+        templateUrl: "panels/todolist.html"
+      }
+    }
+  });
+  
+  
+  
 });

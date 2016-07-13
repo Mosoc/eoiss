@@ -17,7 +17,7 @@
 .Modal-holder
 {
   position: fixed;
-  top: 0px;
+  top: 50%;
   left: 0px;
   height:100%;
   width:100%;
@@ -31,10 +31,19 @@
   margin: 0 auto;
   width: 100%;
   background: #fff;
-  padding: 15px;
-  border-radius: 4px;
+  padding-top: 15px;
+  border-radius: 10px;
   box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
   position: relative;
+}
+
+panel-default{
+  margin-top: 20px;
+  max-width: 450px;
+}
+
+panel-body{
+  max-width: 400px;
 }
 
 @media screen and (min-width: 992px)
