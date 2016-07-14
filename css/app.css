@@ -11,6 +11,7 @@
 }
 
 body {
+  font-family: 'cwTeXFangSong', serif;
   background: #5a4167;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +130,7 @@ body .container .todo_nav ul li.active:after {
 }
 body .container .todo_content {
   width: calc(90% - 20px);
-  height: 40vh;
+  min-height: 40vh;
   position: relative;
   padding: 10px;
   background: #fff;
@@ -464,11 +465,6 @@ body .blog_title .blog_attr {
 }
 .btn-info {
   border: 4px solid #50514f;
-}
-
-
-body{
-  font-family: 'cwTeXFangSong', serif;
 }
 
 h2{
