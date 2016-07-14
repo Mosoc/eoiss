@@ -129,7 +129,7 @@ body .container .todo_nav ul li.active:after {
   transition: all 0.35s ease;
 }
 body .container .todo_content {
-  width: calc(90% - 20px);
+  width: calc(95% - 0px);
   min-height: 40vh;
   position: relative;
   padding: 10px;
@@ -507,7 +507,7 @@ h2{
 }
 
 .well{
-  max-width: calc(80% - 10px );
+  max-width: calc(90% - 10px );
   text-align: left;
 }
 
