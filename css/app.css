@@ -6,7 +6,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-weight: bold;
+  font-weight: 500;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -469,13 +469,12 @@ body .blog_title .blog_attr {
 
 body{
   font-family: 'cwTeXFangSong', serif;
-  font-family: 'Noto Sans TC', sans-serif;
 }
 
 h2{
   font-family: 'cwTeXHei', sans-serif;
-  
 }
+
 .Modal-backdrop
 {
  position: fixed;
